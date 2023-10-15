@@ -1,0 +1,24 @@
+{
+  "name": "sevencoder/consumo-correios",
+  "description": "Crawler para consumir dados de cep e endereços no buscacep do correios",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Thiago Cavalcante",
+      "email": "thiagocode2023@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0, <8.2",
+    "guzzlehttp/guzzle": "^7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.6"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "SevenCoder\\ConsumoCorreios\\": "src"
+    }
+  }
+}
