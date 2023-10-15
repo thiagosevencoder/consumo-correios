@@ -16,8 +16,8 @@ composer require sevencoder/consumo-correios
 
 <?php
 
-//isso aqui neão será necesário se os arquivos aonde 
-//voce chama já roda com o autolooad do composer
+//isso aqui não será necessário se os arquivos aonde 
+//voce chama já roda com o autoload do composer
 require __DIR__ . '/../vendor/autoload.php';
 
 //importanto dependencia do composer
