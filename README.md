@@ -31,5 +31,5 @@ $buscaEnderecoByCEP = ConsumoCorreios::buscarEnderecoByCep('58064560');
 ```
 
 ### REQUISITOS
--PHP 7.0
+- PHP 7.0
 - LIB guzzlehttp/guzzle >= 7.0
